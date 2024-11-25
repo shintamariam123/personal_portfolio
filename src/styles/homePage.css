@@ -1,0 +1,615 @@
+body {
+  overflow-x: hidden !important;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: black;
+  height: 5rem;
+  width: 100%;
+  /* position: fixed; */
+}
+
+.navbar .btn-navbar {
+  background-color: transparent;
+  border: 2px solid #aaa;
+  color: #aaa;
+  border-radius: 10px;
+
+}
+
+.navbar p {
+  color: #aaa;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 10rem !important;
+}
+
+@keyframes victoryAnimation {
+  0% {
+    transform: scale(1.5);
+  }
+
+  15% {
+    transform: scale(2);
+    /* Zoom in */
+  }
+
+  30% {
+    transform: translateX(-5px);
+    /* Move left */
+
+  }
+
+  45% {
+    transform: translateX(5px);
+    /* Move left */
+  }
+
+  60% {
+    transform: translateX(-5px);
+    /* Move left */
+  }
+
+  75% {
+    transform: translateX(5px);
+    /* Move left */
+  }
+
+  90% {
+    transform: scale(2);
+    /* Zoom in */
+  }
+
+  100% {
+    transform: scale(1.5);
+    /* Zoom out */
+  }
+}
+
+.victory {
+  display: inline-block;
+  /* Ensure transform works correctly */
+  animation: victoryAnimation 3s infinite;
+  /* Adjust duration as needed */
+}
+
+.btn-hai {
+  width: 16rem !important;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar p {
+    margin-left: 0rem !important;
+    margin-top: 1rem;
+  }
+
+  .btn-hai {
+    width: 12rem;
+  }
+
+}
+
+
+
+
+/* homebox */
+
+.homebox {
+  background-color: black;
+  display: flex;
+  align-items: center !important;
+  flex-direction: column;
+  padding-top: 100px;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.homebox .row p {
+  font-size: 13rem;
+  font-weight: 700;
+  color: #882525;
+  line-height: 12rem;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: -15px;
+}
+
+
+.hiphen {
+  width: 12rem;
+  height: 1.5rem;
+  background-color: #882525;
+  transition: width 0.3s ease;
+}
+
+.hover-letter {
+  display: inline-block;
+  /* Ensure each letter can be individually hovered */
+  transition: color 0.3s;
+  /* Smooth transition */
+}
+
+.hover-letter:hover {
+  color: #ffffff;
+  /* Change color to yellow on hover */
+}
+
+@keyframes downMove {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(20px);
+    /* Move down */
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(40px);
+    /* Stay down */
+    opacity: 0;
+    /* Fade out */
+  }
+}
+
+.down-arrow {
+  animation: downMove 1.5s infinite;
+  /* Adjust duration as needed */
+}
+
+.homebox .about {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 10rem;
+}
+
+.custom-hr {
+  border: none;
+  /* Remove the default border */
+  height: 3px;
+  /* Set the desired height */
+  background-color: #aaa;
+  /* Set the color */
+}
+
+
+@media screen and (max-width: 600px) {
+  .homebox .row p {
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: #882525;
+    line-height: 5rem;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+
+  .homebox {
+    padding-top: 50px;
+  }
+
+  .hiphen {
+    width: 6rem;
+    height: 0.5rem;
+    background-color: #882525;
+  }
+
+  .homebox .about {
+    text-align: center !important;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+}
+
+.tools p {
+  color: #aaa;
+}
+
+.tools-box {
+  margin-top: 10rem;
+  margin-bottom: 12rem;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+    /* Start off-screen to the right */
+  }
+
+  100% {
+    transform: translateX(-100%);
+    /* Move off-screen to the left */
+  }
+}
+
+
+/* Initial state for the left and right columns */
+.left-column,
+.right-column {
+  opacity: 0;
+  transform: translateX(-100%);
+  /* Left column starts off-screen to the left */
+  transition: all 1s ease-in-out;
+}
+
+.right-column {
+  transform: translateX(100%);
+  /* Right column starts off-screen to the right */
+}
+
+/* Active state for the columns */
+.show-left {
+  opacity: 1;
+  transform: translateX(0);
+  /* Moves to its original position */
+}
+
+.show-right {
+  opacity: 1;
+  transform: translateX(0);
+  /* Moves to its original position */
+}
+
+
+
+.skillsandtools {
+  /* overflow-x: hidden !important; */
+  margin-top: 100px;
+  width: 100%;
+  height: 100vh;
+  min-height: fit-content;
+}
+
+.skills-container {
+  width: 100%;
+  padding: 50px 0;
+  /* padding: 20px; */
+}
+
+.oxy-progress-bar {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.oxy-progress-bar-label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.oxy-progress-bar-progress {
+  position: relative;
+  background: #fff;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.oxy-progress-bar-progress-wrap {
+  height: 100%;
+  background-color: #882525;
+  width: 0%;
+  border-radius: 10px 0 0 10px;
+}
+
+
+
+
+.tools li {
+  list-style: none;
+  color: #aaa;
+  font-size: 1.3rem;
+}
+
+.skillsandtools p {
+  font-size: 2.5rem;
+  color: #882525;
+
+}
+
+@media screen and (max-width: 600px) {
+  .oxy-progress-bar {
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+/* Projects Section */
+.projects-section,
+.projects-section1,
+.projects-section2,
+.projects-section3,
+.projects-section4,
+.projects-section5 ,
+.projects-section6,
+.projects-section7,
+.projects-section8,
+.projects-section9,
+.projects-section10,
+.projects-section11{
+  padding: 2rem 1rem;
+  /* background-color: #f9f9f9; */
+  margin-top: 3rem;
+  width: 100%;
+  overflow-x: hidden !important;
+}
+
+.project-row,
+.project-row1,
+.project-row2,
+.project-row3,
+.project-row4,
+.project-row5,
+.project-row6,
+.project-row7,
+.project-row8,
+.project-row9,
+.project-row10,
+.project-row11{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  transform: scale(0.6);
+  /* Initial smaller size */
+  opacity: 0;
+  /* Hidden initially */
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  margin-bottom: 1rem;
+}
+
+.project-image {
+  position: relative;
+  /* Required to position the overlay relative to the image */
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  /* object-fit: cover; */
+  /* Ensures the overlay stays within the image boundaries */
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.project-image .overlay {
+  position: absolute;
+  bottom: 0;
+  /* Anchored to the bottom of the image */
+  left: 0;
+  width: 100%;
+  height: 50%;
+  /* Adjust this value to control how much of the bottom is covered */
+  background: linear-gradient(to top, #882525, rgba(0, 128, 0, 0));
+  /* Gradient effect */
+  display: flex;
+  /* Enables flexbox */
+  justify-content: space-between;
+  /* Spaces the date and arrow apart */
+  align-items: flex-end;
+  /* Aligns items at the bottom */
+  padding: 0.5rem 1rem;
+  /* Adds padding for spacing */
+  box-sizing: border-box;
+  border-radius: 8px;
+  /* Matches the image's border radius */
+  opacity: 0;
+  /* Initially hidden */
+  pointer-events: none;
+  /* Prevents interference when hidden */
+  transition: opacity 0.5s ease;
+  /* Smooth fade-in effect */
+}
+
+.project-image:hover .overlay {
+  opacity: 1;
+  /* Display overlay on hover */
+  pointer-events: auto;
+  /* Makes it interactive when visible */
+}
+
+
+.project-image .overlay .date {
+  color: white;
+  /* Makes the date visible */
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.overlay a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.project-image .overlay .arrow {
+  color: white;
+  /* Makes the arrow visible */
+  font-size: 1.5rem;
+  cursor: pointer;
+  pointer-events: auto;
+  /* Allows the arrow to be clickable */
+  transition: transform 0.3s ease;
+}
+
+.project-image .overlay .arrow:hover {
+  transform: scale(1.2);
+  /* Adds a hover effect to the arrow */
+}
+
+.project-details {
+  max-width: 500px;
+
+}
+
+.project-details h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  color: #fff;
+  letter-spacing: 3px;
+
+}
+
+.project-details h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  color: #882525;
+  letter-spacing: 4px;
+}
+
+.project-details p {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.project-link {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  border: 3px solid #882525;
+}
+.project-details i{
+  font-size: 1.2rem;
+}
+.project-spec {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  /* background-color: transparent; */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  /* border: 3px solid #882525; */
+}
+
+.project-link:hover {
+  background-color: #882525;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+
+  .project-row,
+  .project-row1,
+  .project-row2,
+  .project-row3,
+  .project-row4,
+  .project-row5,
+  .project-row6,
+  .project-row7,
+  .project-row8,
+  .project-row9,
+  .project-row10,
+  .project-row11 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
+
+/* contact */
+.contact-section {
+  
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  color: white;
+
+}
+
+
+
+.contact-section button{
+  border: 2px solid #882525 !important;
+  /* background-color: black;  */
+  color: #fff;
+}
+.contact-section label{
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.contact-details p{
+  color: gray;
+}
+.contact-details span{
+  color: #fff;
+}
+.contact-details a{
+  text-decoration: none;
+}
+.contact-details i{
+  color: #fff;
+
+}
+.icons a{
+  text-decoration: none;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+ .icons i{
+  color: #fff;
+}
+.icons i:hover{
+  color: #882525;
+
+}
+
+@media screen and (max-width: 600px) {
+  .footer{
+    margin-top: 13rem;
+  }
+}
+
+
+.load-more {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#load-more-btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: #882525;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#load-more-btn:hover {
+  background-color: #6e2222;
+}
+
+
+
+
+
+
+
