@@ -86,7 +86,7 @@ body {
   }
 
   .btn-hai {
-    width: 12rem;
+    width: 12rem !important;
   }
 
 }
@@ -199,7 +199,7 @@ body {
   }
 
   .homebox .about {
-    text-align: center !important;
+    text-align: justify !important;
     font-size: 1rem;
     line-height: 1.5rem;
   }

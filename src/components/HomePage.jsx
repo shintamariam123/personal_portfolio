@@ -170,8 +170,8 @@ function HomePage() {
         });
         ScrollTrigger.create({
             trigger: ".projects-section1", // Parent container of the projects
-            start: "top 50%", // When the top of the section reaches 80% of the viewport
-            end: "bottom 50%", // When the bottom of the section is 20% of the viewport
+            start: "top 80%", // When the top of the section reaches 80% of the viewport
+            end: "bottom 20%", // When the bottom of the section is 20% of the viewport
             onEnter: () => {
                 gsap.to(".project-row1", {
                     scale: 1,
@@ -192,8 +192,8 @@ function HomePage() {
         });
         ScrollTrigger.create({
             trigger: ".projects-section2", // Parent container of the projects
-            start: "top 50%", // When the top of the section reaches 80% of the viewport
-            end: "bottom 50%", // When the bottom of the section is 20% of the viewport
+            start: "top 80%", // When the top of the section reaches 80% of the viewport
+            end: "bottom 20%", // When the bottom of the section is 20% of the viewport
             onEnter: () => {
                 gsap.to(".project-row2", {
                     scale: 1,
@@ -214,15 +214,15 @@ function HomePage() {
         });
         ScrollTrigger.create({
             trigger: ".projects-section3", // Parent container of the projects
-            start: "top 60%", // When the top of the section reaches 80% of the viewport
-            end: "bottom 40%", // When the bottom of the section is 20% of the viewport
+            start: "top 20%", // When the top of the section reaches 80% of the viewport
+            end: "bottom 80%", // When the bottom of the section is 20% of the viewport
             onEnter: () => {
                 gsap.to(".project-row3", {
                     scale: 1,
                     opacity: 1,
                     duration: 0.5,
                     ease: "power1.out",
-                    stagger: 0.2, // Animates each row with a slight delay
+                    stagger: 0.1, // Animates each row with a slight delay
                 });
             },
             onLeaveBack: () => {
