@@ -598,7 +598,7 @@ function HomePage() {
                             <a href="" className="project-spec"><i className="fa-brands fa-html5"></i></a>
                             <a href="" className="project-spec"><i className="fa-brands fa-css3"></i></a>
                             <a href="" className="project-spec"><i className="fa-brands fa-react"></i></a>
-                            <a href="" className="project-spec"><i className="fa-brands fa-node-js"></i></a> *
+                            <a href="" className="project-spec"><i className="fa-brands fa-node-js"></i></a> 
 
                             <a href="" className="project-spec"><i className="fa-brands fa-bootstrap"></i></a>
                             <br /><br />
