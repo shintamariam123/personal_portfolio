@@ -512,7 +512,7 @@ function HomePage() {
 
                             padding: '8px 15px',
                             borderRadius: '5px',
-                            fontSize: '0.9rem', border: '2px solid rgb(120, 55, 10)'
+                            fontSize: '0.9rem', border: '2px solid #8B0000'
                         }} ><a id='download' style={{ textDecoration: 'none', color: 'white', }} href="/resume/resume.pdf" download>DOWNLOAD CV</a></button>
                     </div>
                 </div>
