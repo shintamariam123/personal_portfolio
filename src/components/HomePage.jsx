@@ -622,7 +622,7 @@ function HomePage() {
                 <div className='projects-section1'>
                     <div className="project-row1 d-flex">
                         <div className="project-image">
-                            <img src="./src/images/mediaplayer.png" alt="Project 2" />
+                            <img src="/images/mediaplayer.png" alt="Project 2" />
                             <div className='overlay'>
                                 <div className="arrow"><a target='_blank' href="https://media-player-app-xi.vercel.app/">&rarr;</a> </div> {/* Replace with an icon if needed */}
 
@@ -668,7 +668,7 @@ function HomePage() {
                             <a target='_blank' href="https://github.com/shintamariam123/redux-cart" className="project-link">Github</a>
                         </div>
                         <div className="project-image">
-                            <img src=" ./src/images/cart.png" alt="Project 2" />
+                            <img src=" /images/cart.png" alt="Project 2" />
                             <div className='overlay'>
                                 <div className="arrow"><a target='_blank' href="https://redux-cart-eta.vercel.app/"> &rarr;</a></div> {/* Replace with an icon if needed */}
 
@@ -684,7 +684,7 @@ function HomePage() {
                 <div className="projects-section4">
                     <div className="project-row4 ">
                         <div className="project-image">
-                            <img src="./src/images/projectfair.png" alt="Project 4" />
+                            <img src="/images/projectfair.png" alt="Project 4" />
                             <div className='overlay'>
                                 <div className="date">Apr 22, 2024</div> {/* Replace with your date */}
                                 <div className="arrow"><a href="https://project-fair-ten.vercel.app/" target='_blank'>&rarr;</a> </div> {/* Replace with an icon if needed */}
@@ -726,7 +726,7 @@ function HomePage() {
                             <a target='_blank' href=" https://github.com/shintamariam123/fitness-tracker-app" className="project-link">Github</a>
                         </div>
                         <div className="project-image">
-                            <img src="./src/images/fitnesstracker.png" alt="Project 1" />
+                            <img src="/images/fitnesstracker.png" alt="Project 1" />
                             <div className='overlay'>
                                 <div className="date">Mar 3, 2024</div> {/* Replace with your date */}
                                 <div className="arrow"><a href="https://fitness-tracker-app-ten.vercel.app/" target='_blank'> &rarr;</a></div> {/* Replace with an icon if needed */}
@@ -742,7 +742,7 @@ function HomePage() {
                 <div className="projects-section">
                     <div className="project-row ">
                         <div className="project-image">
-                            <img src="./src/images/parallax.png" alt="Parallax Image" />
+                            <img src="/images/parallax.png" alt="Parallax Image" />
                             <div className='overlay'>
                                 <div className="date">Jan 20, 2024</div> {/* Replace with your date */}
                                 <div className="arrow"> <a target='_blank' href="https://parallax-self.vercel.app/">&rarr;</a></div> {/* Replace with an icon if needed */}
@@ -790,7 +790,7 @@ function HomePage() {
                                     <a target='_blank' href="https://github.com/shintamariam123/portfolio" className="project-link">Github</a>
                                 </div>
                                 <div className="project-image">
-                                    <img src="./src/images/portfolio.png" alt="Project 6" />
+                                    <img src="/images/portfolio.png" alt="Project 6" />
                                     <div className='overlay'>
                                         <div className="date">Dec 12, 2023</div> {/* Replace with your date */}
                                         <div className="arrow"><a href="https://portfolio-three-gamma-12.vercel.app/" target='_blank'>&rarr;</a></div> {/* Replace with an icon if needed */}
@@ -811,7 +811,7 @@ function HomePage() {
                             <div className="project-row7 d-flex">
 
                                 <div className="project-image">
-                                    <img src=" ./src/images/fashion.png" alt="Project 7" />
+                                    <img src=" /images/fashion.png" alt="Project 7" />
                                     <div className='overlay'>
                                         <div className="arrow"><a href="https://fashion-website-react.vercel.app/" target='_blank'></a> &rarr;</div> {/* Replace with an icon if needed */}
 
@@ -864,7 +864,7 @@ function HomePage() {
                                     <a target='_blank' href=" https://github.com/shintamariam123/dynamic-website" className="project-link">Github</a>
                                 </div>
                                 <div className="project-image">
-                                    <img src=" ./src/images/coffee.png" alt="Project 9" />
+                                    <img src=" /images/coffee.png" alt="Project 9" />
                                     <div className='overlay'>
                                         <div className="arrow"><a href="https://dynamic-website-brown.vercel.app/" target='_blank'></a> &rarr;</div> {/* Replace with an icon if needed */}
 
@@ -885,7 +885,7 @@ function HomePage() {
                             <div className="project-row11 d-flex">
 
                                 <div className="project-image">
-                                    <img src=" ./src/images/figma.png" alt="Project 11" />
+                                    <img src="/images/figma.png" alt="Project 11" />
                                     <div className='overlay'>
                                         <div className="arrow"><a href="https://figma-seven-iota.vercel.app/" target='_blank'>&rarr;</a> </div> {/* Replace with an icon if needed */}
 
@@ -935,7 +935,7 @@ function HomePage() {
                                     <a target='_blank' href=" https://github.com/shintamariam123/clone-website" className="project-link">Github</a>
                                 </div>
                                 <div className="project-image">
-                                    <img src="./src/images/netflix.png" alt="Project 8" />
+                                    <img src="/images/netflix.png" alt="Project 8" />
                                     <div className='overlay'>
                                         <div className="date">Dec 10, 2023</div> {/* Replace with your date */}
                                         <div className="arrow"><a href="https://clone-website-seven.vercel.app/" target='_blank'>&rarr;</a> </div> {/* Replace with an icon if needed */}
@@ -954,7 +954,7 @@ function HomePage() {
                         <div className="projects-section10">
                             <div className="project-row8 ">
                                 <div className="project-image">
-                                    <img src="./src/images/travel.png" alt="Project 10" />
+                                    <img src="/images/travel.png" alt="Project 10" />
                                     <div className='overlay'>
                                         <div className="date">Dec 28, 2023</div> {/* Replace with your date */}
                                         <div className="arrow"> <a href="https://travel-eta-five.vercel.app/" target='_blank'>&rarr;</a></div> {/* Replace with an icon if needed */}
