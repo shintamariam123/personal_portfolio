@@ -606,7 +606,7 @@ function HomePage() {
                             <a target='_blank' href="https://github.com/shintamariam123/Expense_Tracker_Client" className="project-link">Github</a>
                         </div>
                         <div className="project-image">
-                            <img src=" ./src/images/expensetracker.png" alt="Project 5" />
+                            <img src=" /images/expensetracker.png" alt="Project 5" />
                             <div className='overlay'>
                                 <div className="arrow"><a target='_blank' href=" https://expense-tracker-client-cfii.vercel.app/">&rarr;</a> </div> {/* Replace with an icon if needed */}
 
