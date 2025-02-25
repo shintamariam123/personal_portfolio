@@ -479,7 +479,7 @@ function HomePage() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse container " id="navbarSupportedContent">
-                        <p className='navbar-nav me-auto mb-2 mb-lg-0 '>FULLSTACK DEVELOPER <br />FOLIO / 2023 - 2024</p>
+                        <p className='navbar-nav me-auto mb-2 mb-lg-0 '>FULLSTACK DEVELOPER <br />FOLIO / 2023 - 2025</p>
                         <button className='btn btn-navbar'><a style={{ textDecoration: 'none', color: 'white' }} href="#contact">CONTACT</a></button>
                     </div>
                 </div>
@@ -506,7 +506,7 @@ function HomePage() {
 
 
                         </p>
-                        <button className='btn me-auto' style={{
+                        <button className='btn btn-cv me-auto' style={{
                             textDecoration: 'none',
                             backgroundColor: 'black',
 
