@@ -472,7 +472,7 @@ function HomePage() {
     const isFormComplete = formData.from_name && formData.user_email && formData.message;
     return (
         <>
-            <nav id='container' className="navbar navbar-expand-lg  ">
+            <nav  className="navbar navbar-expand-lg  ">
                 <div className="container-fluid">
                     <button className='btn  btn-navbar btn-hai'><span className='victory'>✌️</span> Hi There! I'm Shinta</button>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -1074,8 +1074,9 @@ function HomePage() {
             <ToastContainer />
 
             <div  className="icon up-arrow">
-                <a href="#container"><i style={{color:'white'}} className="fa-solid fa-angle-up brand"></i></a>
+                <a href="#"><i style={{color:'white'}} className="fa-solid fa-angle-up brand"></i></a>
             </div>
+            
 
         </>
     )
